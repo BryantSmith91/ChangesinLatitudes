@@ -24,9 +24,9 @@ body {
 
 #selected {
     border-style: groove;
-    border-spacing: 1px;
+    border-spacing: 3px;
     border-width: 3px;
-    border-color: black;
+    border-color: #26c7c7;
 }
 
 #Visualizations {
