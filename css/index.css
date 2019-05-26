@@ -4,6 +4,10 @@ body {
 
 .col-md-10 {
     background-color: white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 .col-md-8 {
@@ -12,10 +16,14 @@ body {
 
 .col-md-6 {
     background-color: white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 .col-md-4 {
     background-color: white;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 .col-sm-1 {
@@ -35,6 +43,7 @@ body {
 
 #VisualationImage {
     color: #26c7c7;
+    text-align: center;
 }
 
 #VisualationText {
@@ -201,7 +210,7 @@ body {
     padding: 10px;
 }
 
-#dropdownitem {
+#dropwodnitem {
     color: #ecf0f1;
     background-color: #26c7c7;
 }
@@ -218,4 +227,14 @@ body {
     border-spacing: 3px;
     border-width: 3px;
     border-color: black;
+}
+
+#compbottom {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#comptop {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
 }
