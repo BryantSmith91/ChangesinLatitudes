@@ -7,7 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="..\css\index.css">
 </head>
 
 <body>
@@ -18,47 +18,48 @@
                     <div class="navbar-header">
                         <a class="navbar-brand" href="..\index.html">Latitudes</a>
                     </div>
-                    <li class="dropdown ml-auto">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
-                            <span class="caret"></span></a>
+                    <li class="dropdown ml-auto" id="navbardropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="navbarlistitem">Plots
+                                <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="temp.html">Temperature</a></li>
+                            <li><a href="temp.html" id="dropwodnitem">Temperature</a></li>
                             <li>
-                                <a href="cloud.html">Cloudiness</a>
+                                <a href="cloud.html" id="dropwodnitem">Cloudiness</a>
                             </li>
                             <li>
-                                <a href="wind.html">Wind Speed</a>
+                                <a href="wind.html" id="dropwodnitem">Wind Speed</a>
                             </li>
                             <li>
-                                <a href="humid.html">Humidity</a>
+                                <a href="humid.html" id="dropwodnitem">Humidity</a>
                             </li>
                         </ul>
                     </li>
                     <ul class="nav navbar-nav">
-                        <li><a href="comp.html">Comparison</a></li>
+                        <li><a href="comp.html" id="navbarlistitem">Comparison</a></li>
                     </ul>
                     <ul class="nav navbar-nav">
-                        <li><a href="data.html">Data</a></li>
+                        <li><a href="data.html" id="navbarlistitem">Data</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
+        <br>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-1"></div>
-                <div class="col-md-6" id="Visualation Image">
-                    <h4>
+                <div class="col-md-6">
+                    <h4 id="VisualationImage">
                         Latitude vs. Wind Speed.
                     </h4><img alt="Latitude vs. Wind Speed" src="..\Resources\assets\images\Fig3.png" style="width:75%" />
-                    <p>
+                    <p id="VisualationText">
                         PLACEHOLDER TEXT
                     </p>
                 </div>
-                <div class="col-md-4" id="Visualizations">
-                    <h3>
+                <div class="col-md-4">
+                    <h3 id="Visualizations">
                         Visualizations
                     </h3>
-                    <h10>
+                    <h10 id="Visualizations">
                         Click an image below to be taken to the specific visualation's page.
                     </h10>
                     <div class="row">
@@ -73,7 +74,7 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-6">
-                            <a href="wind.html"><img alt="Latitude and Wind Speed" src="..\Resources\assets\images\Fig3.png" style="width:100%" /></a>
+                            <a href="wind.html"><img alt="Latitude and Wind Speed" src="..\Resources\assets\images\Fig3.png" style="width:100%" id="selected" /></a>
                         </div>
                         <div class="col-sm-6">
                             <a href="humid.html"><img alt="Latitude and Humidity" src="..\Resources\assets\images\Fig4.png" style="width:100%" /></a>

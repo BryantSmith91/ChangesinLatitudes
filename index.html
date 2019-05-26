@@ -7,7 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css\index.css">
 </head>
 
 <body>
@@ -18,27 +18,27 @@
                     <div class="navbar-header">
                         <a class="navbar-brand" href="index.html">Latitudes</a>
                     </div>
-                    <li class="dropdown ml-auto">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
-                            <span class="caret"></span></a>
+                    <li class="dropdown ml-auto" id="navbardropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="navbarlistitem">Plots
+                                <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="html\temp.html">Temperature</a></li>
+                            <li><a href="html\temp.html" id="dropwodnitem">Temperature</a></li>
                             <li>
-                                <a href="html\cloud.html">Cloudiness</a>
+                                <a href="html\cloud.html" id="dropwodnitem">Cloudiness</a>
                             </li>
                             <li>
-                                <a href="html\wind.html">Wind Speed</a>
+                                <a href="html\wind.html" id="dropwodnitem">Wind Speed</a>
                             </li>
                             <li>
-                                <a href="html\humid.html">Humidity</a>
+                                <a href="html\humid.html" id="dropwodnitem">Humidity</a>
                             </li>
                         </ul>
                     </li>
                     <ul class="nav navbar-nav">
-                        <li><a href="html\comp.html">Comparison</a></li>
+                        <li><a href="html\comp.html" id="navbarlistitem">Comparison</a></li>
                     </ul>
                     <ul class="nav navbar-nav">
-                        <li><a href="html\data.html">Data</a></li>
+                        <li><a href="html\data.html" id="navbarlistitem">Data</a></li>
                     </ul>
                 </nav>
             </div>
